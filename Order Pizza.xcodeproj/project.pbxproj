@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410168961BF51E820036456D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410168951BF51E820036456D /* Pizza.swift */; };
+		4101689A1BF5223E0036456D /* ViewSizePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410168991BF5223E0036456D /* ViewSizePizza.swift */; };
+		4155151E1BF5D06900D3F05A /* ViewKindDough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155151D1BF5D06900D3F05A /* ViewKindDough.swift */; };
+		415515201BF5D77800D3F05A /* ViewKindCheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155151F1BF5D77800D3F05A /* ViewKindCheese.swift */; };
+		415515221BF5DD6F00D3F05A /* ViewIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415515211BF5DD6F00D3F05A /* ViewIngredients.swift */; };
+		415515241BF5F75C00D3F05A /* ViewConfirmOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415515231BF5F75C00D3F05A /* ViewConfirmOrder.swift */; };
 		41945B341BF40DF50061287D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41945B331BF40DF50061287D /* AppDelegate.swift */; };
 		41945B361BF40DF50061287D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41945B351BF40DF50061287D /* ViewController.swift */; };
 		41945B391BF40DF50061287D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41945B371BF40DF50061287D /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410168951BF51E820036456D /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		410168991BF5223E0036456D /* ViewSizePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSizePizza.swift; sourceTree = "<group>"; };
+		4155151D1BF5D06900D3F05A /* ViewKindDough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewKindDough.swift; sourceTree = "<group>"; };
+		4155151F1BF5D77800D3F05A /* ViewKindCheese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewKindCheese.swift; sourceTree = "<group>"; };
+		415515211BF5DD6F00D3F05A /* ViewIngredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewIngredients.swift; sourceTree = "<group>"; };
+		415515231BF5F75C00D3F05A /* ViewConfirmOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirmOrder.swift; sourceTree = "<group>"; };
 		41945B301BF40DF50061287D /* Order Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Order Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41945B331BF40DF50061287D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41945B351BF40DF50061287D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +47,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410168971BF51E860036456D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				410168951BF51E820036456D /* Pizza.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		410168981BF522200036456D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41945B351BF40DF50061287D /* ViewController.swift */,
+				410168991BF5223E0036456D /* ViewSizePizza.swift */,
+				4155151D1BF5D06900D3F05A /* ViewKindDough.swift */,
+				4155151F1BF5D77800D3F05A /* ViewKindCheese.swift */,
+				415515211BF5DD6F00D3F05A /* ViewIngredients.swift */,
+				415515231BF5F75C00D3F05A /* ViewConfirmOrder.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		41945B271BF40DF50061287D = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +87,9 @@
 		41945B321BF40DF50061287D /* Order Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				410168981BF522200036456D /* Controllers */,
+				410168971BF51E860036456D /* Model */,
 				41945B331BF40DF50061287D /* AppDelegate.swift */,
-				41945B351BF40DF50061287D /* ViewController.swift */,
 				41945B371BF40DF50061287D /* Main.storyboard */,
 				41945B3A1BF40DF50061287D /* Assets.xcassets */,
 				41945B3C1BF40DF50061287D /* LaunchScreen.storyboard */,
@@ -137,7 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41945B361BF40DF50061287D /* ViewController.swift in Sources */,
+				415515221BF5DD6F00D3F05A /* ViewIngredients.swift in Sources */,
+				415515201BF5D77800D3F05A /* ViewKindCheese.swift in Sources */,
 				41945B341BF40DF50061287D /* AppDelegate.swift in Sources */,
+				4155151E1BF5D06900D3F05A /* ViewKindDough.swift in Sources */,
+				4101689A1BF5223E0036456D /* ViewSizePizza.swift in Sources */,
+				415515241BF5F75C00D3F05A /* ViewConfirmOrder.swift in Sources */,
+				410168961BF51E820036456D /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +325,7 @@
 				41945B441BF40DF50061287D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
